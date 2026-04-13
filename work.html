@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="nl" class="lenis lenis-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InkMaster Studio Voorbeeld — Portfolio</title>
+  <meta name="description" content="Bekijk ons tattoo portfolio. Custom tattoos, cover-ups, dotwork, fineline en meer.">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,900;1,900&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="bg-strip"></div>
+  <header class="header"><a href="index.html" class="header-logo visible" aria-label="Home"><svg viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="60" rx="4" fill="var(--color-primary)" opacity="0.9"/><text x="100" y="38" text-anchor="middle" fill="var(--color-text)" font-family="var(--font-display)" font-size="24" font-weight="900">LOGO</text></svg></a><nav><ul class="nav-list"><li><a href="index.html">Home</a></li><li><a href="work.html" class="active">Portfolio</a></li><li><a href="blog.html">Blog</a></li><li><a href="about.html">Over Ons</a></li><li><a href="contact.html">Contact</a></li></ul></nav><button class="menu-btn" aria-label="Menu"><span class="label-open">Menu</span><span class="label-close">Close</span></button></header>
+  <div class="mobile-menu"><div class="mobile-menu-backdrop"></div><div class="mobile-menu-panel"><nav class="mobile-menu-nav"><a href="index.html">Home</a><a href="work.html">Portfolio</a><a href="blog.html">Blog</a><a href="about.html">Over Ons</a><a href="contact.html">Contact</a></nav></div></div>
+
+  <div class="page-wrapper"><div class="page-bg">
+    <section class="section-padding" style="padding-top:20vh;padding-bottom:var(--sp-5)"><h1 class="page-hero-title font-display" style="font-size:clamp(2.5rem,8vw,7rem);line-height:0.95">Portfolio</h1><p class="page-hero-desc text-s" style="max-width:35rem;margin-top:var(--sp-4);opacity:0.7">Elk stuk vertelt een verhaal. Bekijk het werk van onze 6 artiesten.</p></section>
+    <section class="section-padding section-reveal" style="padding-bottom:var(--sp-4)"><div class="filters"><button class="filter-btn active" data-filter="all">Alles</button><button class="filter-btn" data-filter="custom">Custom</button><button class="filter-btn" data-filter="coverup">Cover-up</button><button class="filter-btn" data-filter="dotwork">Dotwork</button><button class="filter-btn" data-filter="traditional">Traditioneel</button></div></section>
+    <section class="section-padding" style="padding-bottom:var(--sp-8);min-height:300px"><div class="work-grid grid-3">
+      <div class="grid-item-enter" data-category="custom"><a href="#" class="case-card"><div class="case-card-image"><div class="placeholder-img">Japanse Sleeve</div></div><div class="case-card-info"><span>Full Sleeve</span><span>Custom</span></div></a></div>
+      <div class="grid-item-enter" data-category="dotwork"><a href="#" class="case-card"><div class="case-card-image"><div class="placeholder-img">Mandala Back</div></div><div class="case-card-info"><span>Mandala</span><span>Dotwork</span></div></a></div>
+      <div class="grid-item-enter" data-category="coverup"><a href="#" class="case-card"><div class="case-card-image"><div class="placeholder-img">Rose Cover-up</div></div><div class="case-card-info"><span>Rose Transformation</span><span>Cover-up</span></div></a></div>
+      <div class="grid-item-enter" data-category="traditional"><a href="#" class="case-card"><div class="case-card-image"><div class="placeholder-img">Old School Eagle</div></div><div class="case-card-info"><span>Eagle Chest</span><span>Traditioneel</span></div></a></div>
+      <div class="grid-item-enter" data-category="custom"><a href="#" class="case-card"><div class="case-card-image"><div class="placeholder-img">Portret Realism</div></div><div class="case-card-info"><span>Portret</span><span>Custom</span></div></a></div>
+      <div class="grid-item-enter" data-category="dotwork"><a href="#" class="case-card"><div class="case-card-image"><div class="placeholder-img">Geometric Arm</div></div><div class="case-card-info"><span>Geometric Band</span><span>Dotwork</span></div></a></div>
+      <div class="grid-item-enter" data-category="custom"><a href="#" class="case-card"><div class="case-card-image"><div class="placeholder-img">Fineline Flowers</div></div><div class="case-card-info"><span>Bloemen</span><span>Custom</span></div></a></div>
+      <div class="grid-item-enter" data-category="traditional"><a href="#" class="case-card"><div class="case-card-image"><div class="placeholder-img">Japanese Dragon</div></div><div class="case-card-info"><span>Draak</span><span>Traditioneel</span></div></a></div>
+      <div class="grid-item-enter" data-category="coverup"><a href="#" class="case-card"><div class="case-card-image"><div class="placeholder-img">Full Back Cover</div></div><div class="case-card-info"><span>Back Piece</span><span>Cover-up</span></div></a></div>
+    </div></section>
+    <div class="footer-logo-wrap"><svg viewBox="0 0 1440 200" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet"><text x="720" y="160" text-anchor="middle" font-family="var(--font-display)" font-size="180" font-weight="900" fill="currentColor" opacity="0.15">INKMASTER</text></svg></div>
+  </div></div>
+
+  <footer class="footer"><div class="grid-2"><div><h2 class="footer-heading">Klaar voor jouw <span class="accent">volgende</span> tattoo?</h2></div><div><div class="footer-contact"><a href="tel:+31612345678">+31 6 1234 5678</a><a href="mailto:info@inkmaster-voorbeeld.nl">info@inkmaster-voorbeeld.nl</a></div></div></div><div class="footer-bottom"><span>&copy; 2026 InkMaster Studio Voorbeeld</span><div><a href="#">Privacy</a> &middot; <a href="#">Voorwaarden</a></div></div></footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.18/dist/lenis.min.js"></script><script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script><script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script><script src="js/main.js"></script>
+</body>
+</html>
